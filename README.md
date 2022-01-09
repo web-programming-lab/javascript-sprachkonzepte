@@ -1,4 +1,4 @@
-# Seed Projekt für JavaScript Sprachkonzepte I & II
+# JavaScript Sprachkonzepte
 
 Mit diesem Projekt können Sie die Code- sowie die Übungsbeispiele aus dem Input JavaScript Sprachkonzepte lokal ausführen.
 
