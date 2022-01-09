@@ -1,0 +1,21 @@
+{
+  "name": "js-concepts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "start:watch": "eslint . && nodemon . --inspect",
+    "prettier": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.6",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
