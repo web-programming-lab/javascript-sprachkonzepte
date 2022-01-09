@@ -1,6 +1,6 @@
 # Seed Projekt für JavaScript Sprachkonzepte I & II
 
-Mit diesem Projekt können Sie die Code sowie die Übungsbeispiele aus dem Input JavaScript Sprachkonzepte lokal ausführen.
+Mit diesem Projekt können Sie die Code- sowie die Übungsbeispiele aus dem Input JavaScript Sprachkonzepte lokal ausführen.
 
 Die Ausführungsumgebung ist dabei [Node.js](https://nodejs.org/).
 
@@ -8,9 +8,9 @@ Die Ausführungsumgebung ist dabei [Node.js](https://nodejs.org/).
 
 - [Installation](https://code.visualstudio.com/download) Visual Studio Code
 - Installation [Node.js](https://nodejs.org/) latest LTS Version
-- Ggf. Repository forken
-- `git clone https://...`
+- `git clone github.com/web-programming-lab/javascript-sprachkonzepte.git`
 - `npm i && npm run start`
+- Auf der Konsole sollte anschliessend erscheinen: `Hello Web Programming Lab 🤙`
 
 ## Struktur
 
