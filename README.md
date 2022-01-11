@@ -32,7 +32,7 @@ Dieses Repository ist wie folgt strukturiert:
 * [ESLint](https://eslint.org/)
 
 ## Empfohlenes Tooling
-* [nvm - Node Version Manager](https://github.com/nvm-sh/nvm)
+* [nvm - Node Version Manager](https://github.com/nvm-sh/nvm) oder [nvm-windows](https://github.com/coreybutler/nvm-windows)
     * LTS Version nutzen `nvm use --lts`
 
 ## Referenzen
