@@ -27,9 +27,13 @@ Dieses Repository ist wie folgt strukturiert:
 
 ## Tooling in diesem Projekt
 
-- [Nodemon](https://nodemon.io/)
-- [Prettier](https://prettier.io/)
-- [ESLint](https://eslint.org/)
+* [Nodemon](https://nodemon.io/)
+* [Prettier](https://prettier.io/)
+* [ESLint](https://eslint.org/)
+
+## Empfohlenes Tooling
+* [nvm - Node Version Manager](https://github.com/nvm-sh/nvm)
+    * LTS Version nutzen `nvm use --lts`
 
 ## Referenzen
 
