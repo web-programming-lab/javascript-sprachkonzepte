@@ -6,11 +6,11 @@ Die Ausführungsumgebung ist dabei [Node.js](https://nodejs.org/).
 
 ## Vorbereitung
 
-- [Installation](https://code.visualstudio.com/download) Visual Studio Code
-- Installation [Node.js](https://nodejs.org/) latest LTS Version
-- `git clone github.com/web-programming-lab/javascript-sprachkonzepte.git`
-- `npm i && npm run start`
-- Auf der Konsole sollte anschliessend erscheinen: `Hello Web Programming Lab 🤙`
+* [Installation](https://code.visualstudio.com/download) Visual Studio Code
+* Installation [Node.js](https://nodejs.org/) latest LTS Version
+* `git clone github.com/web-programming-lab/javascript-sprachkonzepte.git`
+* `npm i && npm run start`
+* Auf der Konsole sollte anschliessend erscheinen: `Hello Web Programming Lab 🤙`
 
 ## Struktur
 
