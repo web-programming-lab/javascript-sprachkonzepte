@@ -28,11 +28,11 @@ multiProperties(menu);
 
 // Assert zweiter Lauf
 assert.deepEqual(menu, {
-    width: 800,
-    height: 1200,
-    title: 'Titel',
-    newProperty: 20,
-    justAnotherProperty: 'Hallo'
+  width: 800,
+  height: 1200,
+  title: 'Titel',
+  newProperty: 20,
+  justAnotherProperty: 'Hallo',
 });
 
 // Nach dem 1. Funktionsaufruf

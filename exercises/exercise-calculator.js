@@ -1,7 +1,7 @@
 import { strict as assert } from 'assert';
 
 let calculator = {
- // TBD
+  // TBD
 };
 
 // 1. Teil
