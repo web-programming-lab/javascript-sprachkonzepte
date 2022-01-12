@@ -34,7 +34,7 @@ Dieses Repository ist wie folgt strukturiert:
 ## Empfohlenes Tooling
 
 - [nvm - Node Version Manager](https://github.com/nvm-sh/nvm) oder [nvm-windows](https://github.com/coreybutler/nvm-windows)
-  - LTS Version nutzen `nvm use --lts`
+  - LTS Version nutzen `nvm use` im Projektverzeichnis
 
 ## Referenzen
 
