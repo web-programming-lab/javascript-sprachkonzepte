@@ -3,7 +3,8 @@ const user = {};
 console.log(user.mysuperduperproperty === undefined);
 
 const myUser = {
-    name: "Patrick", age: 35
+  name: 'Patrick',
+  age: 35,
 };
 
 // Properties prüfen

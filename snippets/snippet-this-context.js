@@ -1,7 +1,7 @@
-let car1 = {name: 'car1'};
-let car2 = {name: 'car2'};
+let car1 = { name: 'car1' };
+let car2 = { name: 'car2' };
 function start() {
-   console.log(`start ${this.name}`);
+  console.log(`start ${this.name}`);
 }
 car1.start = start;
 car2.start = start;

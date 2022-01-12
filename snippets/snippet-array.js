@@ -7,6 +7,6 @@ myArray.length = 1;
 console.log(myArray); // ['x']
 myArray.push('y');
 console.log(myArray); // ['x', 'y'];
-myArray.push(...['z', '1']); 
+myArray.push(...['z', '1']);
 console.log(myArray); // ['x', 'y', 'z', '1'];
 console.log(typeof myArray); // object

@@ -1,5 +1,6 @@
 const myUser = {
-    name: 'Patrick', age: 33
+  name: 'Patrick',
+  age: 33,
 };
 
 const myUser2 = myUser; // Zuweisen der Referenz
