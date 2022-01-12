@@ -1,22 +1,7 @@
 import { strict as assert } from 'assert';
 
 function findNumber(a, b, c) {
-  if (!Number.isInteger(a) || !Number.isInteger(b) || !Number.isInteger(c))
-    return null;
 
-  if (b === c) {
-    return a;
-  }
-
-  if (a === c) {
-    return b;
-  }
-
-  if (a === b) {
-    return c;
-  }
-
-  return 'Not any numbers are equal';
 }
 
 // Aufgabe 1
