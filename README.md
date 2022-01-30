@@ -27,7 +27,6 @@ Dieses Repository ist wie folgt strukturiert:
 
 ## Tooling in diesem Projekt
 
-- [Nodemon](https://nodemon.io/)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/)
 
