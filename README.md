@@ -23,7 +23,8 @@ Dieses Repository ist wie folgt strukturiert:
 ## Ausführen
 
 - Snippets oder Übungen: `node ./[snippets | exercises]/[file].js`
-- Playground index.js: `node ./index.js` oder `npm run start:watch` (Neustarten der Applikation nach einer Änderung)
+- Playground index.js: `node ./index.js`
+- Oder im Visual Studio Code in der "Run and Debug" Sicht: "Run Current File"
 
 ## Tooling in diesem Projekt
 

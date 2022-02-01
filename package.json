@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "node .",
-    "start:watch": "eslint . && nodemon . --inspect",
     "prettier": "prettier --write ."
   },
   "author": "",
