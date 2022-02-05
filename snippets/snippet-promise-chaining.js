@@ -1,5 +1,6 @@
 new Promise(function (resolve, reject) {
-  // producer    setTimeout(() => resolve(1), 1000);
+  // producer
+  setTimeout(() => resolve(1), 1000);
 })
   .then(function (result) {
     // then 1
