@@ -11,4 +11,4 @@ function sumSalaries(salaries) {
   // TBD
 }
 
-assert.equal(34000, sumSalaries(salaries));
+assert.equal(346000, sumSalaries(salaries));
