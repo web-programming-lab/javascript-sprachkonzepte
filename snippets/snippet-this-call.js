@@ -8,7 +8,7 @@ const car = {
 };
 
 const car2 = {
-  name: 'my car 2'
+  name: 'my car 2',
 };
 
 car.start.call(car2); // 'start my car 2'

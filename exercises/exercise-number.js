@@ -1,7 +1,6 @@
 import { strict as assert } from 'assert';
 
-function findNumber(a, b, c) {
-}
+function findNumber(a, b, c) {}
 
 // Aufgabe 1
 assert.equal(2, findNumber(1, 1, 2));

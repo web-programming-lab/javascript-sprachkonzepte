@@ -1,4 +1,4 @@
-const myConsolePrint = function(message) {
+const myConsolePrint = function (message) {
   console.log(message);
 };
 

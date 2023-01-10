@@ -8,7 +8,7 @@ const car = {
 };
 
 const car2 = {
-  name: 'my car 2'
+  name: 'my car 2',
 };
 
 const start = car.start.bind(car2);
