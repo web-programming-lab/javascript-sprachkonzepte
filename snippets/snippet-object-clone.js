@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const myUser = {
   name: 'Patrick',
   age: 33,

@@ -7,6 +7,7 @@ const salaries = {
   nayoona: 45000,
 };
 
+// eslint-disable-next-line no-unused-vars
 function sumSalaries(salaries) {
   // TBD
 }

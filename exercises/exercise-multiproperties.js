@@ -40,6 +40,8 @@ assert.deepEqual(menu, {
 // Nach deem 2. Funktionsaufruf
 //menu = { width: 800, height: 1200, newProperty = 20, title: "Titel", justAnotherProperty: "Hallo" };
 
+// TBD implement me...
+// eslint-disable-next-line no-unused-vars
 function multiProperties(menu) {
   console.error('Implement me... 👩‍💻');
 }

@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+
 const user = {
   name: 'patrick',
   age: 34,

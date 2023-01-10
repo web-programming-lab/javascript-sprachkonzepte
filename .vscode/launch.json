@@ -4,9 +4,9 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Node: Nodemon",
+      "name": "Node",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "start:watch"],
+      "runtimeArgs": ["run start", "${file}"],
       "outputCapture": "std"
     }
   ]

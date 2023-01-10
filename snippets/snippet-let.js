@@ -1,3 +1,7 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-constant-condition */
+/* eslint-disable no-unused-vars */
+
 function letTest() {
   let x = 31;
   if (true) {

@@ -1,3 +1,6 @@
+/* eslint-disable no-redeclare */
+/* eslint-disable no-constant-condition */
+
 function varTest() {
   var x = 31;
   if (true) {

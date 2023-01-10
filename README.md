@@ -6,38 +6,39 @@ Die Ausführungsumgebung ist [Node.js](https://nodejs.org/).
 
 ## Vorbereitung
 
-* [Installation](https://code.visualstudio.com/download) Visual Studio Code
-* Installation [Node.js](https://nodejs.org/) latest LTS Version
-  * Tipp: Nutzen Sie den Node Version Manager (nvm)
-    * [nvm](https://github.com/nvm-sh/nvm)
-    * [nvm-windows](https://github.com/coreybutler/nvm-windows)
-    * `nvm install`
-* Git Repository clonen
-  * `git clone github.com/web-programming-lab/javascript-sprachkonzepte.git`
-* Abhängigkeiten installieren
-  * `npm ci && npm run start`
-* Auf der Konsole sollte anschliessend erscheinen: `Hello Web Programming Lab 🤙`
+- [Installation](https://code.visualstudio.com/download) Visual Studio Code
+  - Optional: ESLint VS Code extension installieren
+- Installation [Node.js](https://nodejs.org/) latest LTS Version
+  - Tipp: Nutzen Sie den Node Version Manager (nvm)
+    - [nvm](https://github.com/nvm-sh/nvm)
+    - [nvm-windows](https://github.com/coreybutler/nvm-windows)
+    - `nvm install`
+- Git Repository clonen
+  - `git clone github.com/web-programming-lab/javascript-sprachkonzepte.git`
+- Abhängigkeiten installieren
+  - `npm ci && npm run start`
+- Auf der Konsole sollte anschliessend erscheinen: `Hello Web Programming Lab 🤙`
 
 ## Struktur
 
 Dieses Repository ist wie folgt strukturiert:
 
-* `./snippets`: Enthält alle im Unterricht besprochenen Code-Snippets
-* `./exercises`: Enthält alle zu lösenden Übungen, ggf. mit entsprechenden Tests
-* `./index.js`: Ihr Playground, um eigene Code-Fragemente ausführen zu können
+- `./snippets`: Enthält alle im Unterricht besprochenen Code-Snippets
+- `./exercises`: Enthält alle zu lösenden Übungen, ggf. mit entsprechenden Tests
+- `./index.js`: Ihr Playground, um eigene Code-Fragemente ausführen zu können
 
 ## Ausführen
 
-* Snippets oder Übungen: `node ./[snippets | exercises]/[file].js`
-* Playground index.js: `node ./index.js`
-* Oder im Visual Studio Code in der "Run and Debug" Sicht: "Run Current File"
+- Snippets oder Übungen: `node ./[snippets | exercises]/[file].js`
+- Playground index.js: `node ./index.js`
+- Oder im Visual Studio Code in der "Run and Debug" Sicht: "Run Current File"
 
 ## Tooling in diesem Projekt
 
-* [Prettier](https://prettier.io/)
-* [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/)
 
 ## FAQ
 
-* Wie debugge ich JavaScript in Node.js?
-  * [Node.js Debugging in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
+- Wie debugge ich JavaScript (Node.js) in VS Code?
+  - [Node.js Debugging in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)

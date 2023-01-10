@@ -1,5 +1,6 @@
 import { strict as assert } from 'assert';
 
+// eslint-disable-next-line no-unused-vars
 function findNumber(a, b, c) {}
 
 // Aufgabe 1

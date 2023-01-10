@@ -1,6 +1,9 @@
 import { strict as assert } from 'assert';
 
-// TBD Ladder
+//
+// TBD implement Ladder here
+/* eslint-disable no-undef */
+//
 
 let ladder = new Ladder();
 ladder.up();

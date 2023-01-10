@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+
 const newMessage = 'test'; // globale Variable
 function printSth() {
   // function declaration

@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 new Promise(function (resolve, reject) {
   // producer
   setTimeout(() => resolve(1), 1000);

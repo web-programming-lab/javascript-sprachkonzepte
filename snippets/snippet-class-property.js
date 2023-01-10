@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 class Person {
   constructor(name) {
     this._name = name;
