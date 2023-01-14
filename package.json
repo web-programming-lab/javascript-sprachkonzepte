@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "prettier": "prettier --write ."
   },
-  "author": "",
+  "author": "Web Programming Lab 🚀",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.31.0",
