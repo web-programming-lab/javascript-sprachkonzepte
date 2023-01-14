@@ -1,7 +1,9 @@
 import { strict as assert } from 'assert';
 
 // eslint-disable-next-line no-unused-vars
-function findNumber(a, b, c) {}
+function findNumber(a, b, c) {
+  //TBD
+}
 
 // Aufgabe 1
 assert.equal(2, findNumber(1, 1, 2));
