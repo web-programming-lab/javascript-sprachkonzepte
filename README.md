@@ -12,7 +12,7 @@ Die Ausführungsumgebung ist [Node.js](https://nodejs.org/).
   - Tipp: Nutzen Sie den Node Version Manager (nvm)
     - [nvm](https://github.com/nvm-sh/nvm)
     - [nvm-windows](https://github.com/coreybutler/nvm-windows)
-    - `nvm install`
+    - `nvm install` installiert die angegebene Node.js Version vom `.nvmrc`
 - Git Repository clonen
   - `git clone github.com/web-programming-lab/javascript-sprachkonzepte.git`
 - Abhängigkeiten installieren

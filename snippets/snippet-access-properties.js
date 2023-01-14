@@ -6,6 +6,7 @@ const user = {
 };
 console.log(user.name); // Patrick
 console.log(user['name']); // Patrick
+
 // Computed Properties
 let fruit = prompt('Which fruit?', 'apple');
 let bag = {
