@@ -31,7 +31,6 @@ assert.deepEqual(menu, {
   justAnotherProperty: 'Hallo',
 });
 
-// eslint-disable-next-line no-unused-vars
 /**
  * Multipliziert alle number properties von einem object mit 2
  * Nach dem 1. Funktionsaufruf
@@ -41,6 +40,7 @@ assert.deepEqual(menu, {
  * @param {*} menu
  * @returns
  */
+// eslint-disable-next-line no-unused-vars
 function multiProperties(menu) {
   // TBD implement multiProperties here
   console.log('Implement multiProperties here 💻');
