@@ -52,8 +52,8 @@ const myExampleDeepClone = deepClone(myExampleObject);
 const myExampleStructuredClone = structuredClone(myExampleObject);
 const myExampleJsonParse = JSON.parse(JSON.stringify(myExampleObject));
 
-const myExampleAssign = Object.assign({}, myExampleObject);
-const myExampleSpreadSyntax = { ...myExampleObject };
+const myExampleAssign = Object.assign({}, myExampleObject); // shallow copy !
+const myExampleSpreadSyntax = { ...myExampleObject }; // shallow copy !
 
 console.log('DeepClone', myExampleDeepClone === myExampleObject); // false
 console.log(
