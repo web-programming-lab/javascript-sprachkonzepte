@@ -31,7 +31,7 @@ Dieses Repository ist wie folgt strukturiert:
 
 - Snippets oder Übungen: `node ./[snippets | exercises]/[file].js`
 - Playground index.js: `node ./index.js`
-- Oder im Visual Studio Code in der "Run and Debug" Sicht: "Run Current File"
+- Oder im Visual Studio Code in der "Run and Debug" Sicht: "Launch Program"
 
 ## Tooling in diesem Projekt
 
