@@ -30,6 +30,7 @@ function deepClone(obj) {
 
   let clone = Array.isArray(obj) ? [] : {};
   for (let key in obj) {
+    // eslint-disable-next-line no-prototype-builtins
     if (obj.hasOwnProperty(key)) {
       clone[key] = deepClone(obj[key]);
     }
