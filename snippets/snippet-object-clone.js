@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import { strict as assert } from 'assert';
 
 // Properties von einem Objekt kopieren
 
@@ -56,36 +57,22 @@ const myExampleJsonParse = JSON.parse(JSON.stringify(myExampleObject));
 const myExampleAssign = Object.assign({}, myExampleObject); // shallow copy !
 const myExampleSpreadSyntax = { ...myExampleObject }; // shallow copy !
 
-console.log('DeepClone', myExampleDeepClone === myExampleObject); // false
-console.log(
-  'DeepClone address',
-  myExampleDeepClone.address === myExampleObject.address
-); // false
+// Deep clone
+assert.equal(myExampleDeepClone === myExampleObject, false);
+assert.equal(myExampleDeepClone.address === myExampleObject.address, false);
 
-console.log('StructuredClone', myExampleStructuredClone === myExampleObject); // false
-console.log(
-  'StructuredClone address',
-  myExampleStructuredClone.address === myExampleObject.address
-); // false
+assert.equal(myExampleStructuredClone === myExampleObject, false);
+assert.equal(
+  myExampleStructuredClone.address === myExampleObject.address,
+  false
+);
 
-console.log(
-  'JSON Parse / JSON stringify',
-  myExampleJsonParse === myExampleObject
-); // false
+assert.equal(myExampleJsonParse === myExampleObject, false);
+assert.equal(myExampleJsonParse.address === myExampleObject.address, false);
 
-console.log(
-  'JSON Parse / JSON stringify address',
-  myExampleJsonParse.address === myExampleObject.address
-); // false
+// Referenzen werden kopiert (shallow copy)
+assert.equal(myExampleSpreadSyntax === myExampleObject, false);
+assert.equal(myExampleSpreadSyntax.address === myExampleObject.address, true); // (!)
 
-console.log('Assign', myExampleAssign === myExampleObject); // false
-console.log(
-  'Assign address',
-  myExampleAssign.address === myExampleObject.address
-); // true (!)
-
-console.log('Spread Syntax', myExampleSpreadSyntax === myExampleObject); // false
-console.log(
-  'Spread Syntax address',
-  myExampleSpreadSyntax.address === myExampleObject.address
-); // true (!)
+assert.equal(myExampleAssign === myExampleObject, false);
+assert.equal(myExampleAssign.address === myExampleObject.address, true); // (!)
