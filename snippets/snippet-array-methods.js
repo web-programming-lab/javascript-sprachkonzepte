@@ -12,3 +12,7 @@ const myArray4 = myArray2.map((item) => item + 'x');
 console.log(myArray4); // ['ax', 'bx', 'cx']
 const myArray5 = myArray4.filter((item) => item === 'bx');
 console.log(myArray5); // ['bx']
+
+let a, bc;
+[a, ...bc] = myArray2;
+console.log(a, bc); // 'a' ['b', 'c']
