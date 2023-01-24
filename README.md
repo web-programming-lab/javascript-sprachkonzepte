@@ -36,7 +36,9 @@ Dieses Repository ist wie folgt strukturiert:
 ## Tooling in diesem Projekt
 
 - [Prettier](https://prettier.io/)
+  - Formatierung
 - [ESLint](https://eslint.org/)
+  - JavaScript Linter um potentielle Bugs zu markieren
 
 ## FAQ
 
