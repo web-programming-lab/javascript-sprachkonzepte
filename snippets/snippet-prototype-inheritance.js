@@ -5,10 +5,12 @@ let car = {
   hasFourWheels: true,
 };
 
-car = Object.setPrototypeOf(car, vehicle);
-console.log(car.hasEngine); //Output: true
-console.dir(car);
+car = Object.setPrototypeOf(car, vehicle); // or car.__proto__ = vehicle;
 
-const car2 = Object.create(vehicle, { hasFourWheels: { value: true } });
+console.log(car.hasEngine); //Output: true
+console.log(car.__proto__ === vehicle); //Output: true
+console.log(Object.getPrototypeOf(car) === vehicle); //Output: true
+
+const car2 = Object.create(vehicle, { hasFourWheels: { value: true } }); // Property descriptor
 console.log(car2.hasEngine);
 console.log(car2.hasFourWheels);
