@@ -7,7 +7,7 @@ Die Ausführungsumgebung ist [Node.js](https://nodejs.org/).
 ## Vorbereitung
 
 - [Installation](https://code.visualstudio.com/download) Visual Studio Code
-  - Optional: ESLint VS Code extension installieren
+  - Optional: Prettier VS Code extension installieren
 - Installation [Node.js](https://nodejs.org/) latest LTS Version
   - Tipp: Nutzen Sie den Node Version Manager (nvm)
     - [nvm](https://github.com/nvm-sh/nvm)
