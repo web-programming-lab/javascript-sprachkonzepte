@@ -13,10 +13,13 @@ Die Ausführungsumgebung ist [Node.js](https://nodejs.org/).
     - [nvm](https://github.com/nvm-sh/nvm)
     - [nvm-windows](https://github.com/coreybutler/nvm-windows)
     - `nvm install` installiert die angegebene Node.js Version vom `.nvmrc`
+- `node --version` sollte die installierte Version anzeigen (18)
 - Git Repository clonen
   - `git clone github.com/web-programming-lab/javascript-sprachkonzepte.git`
 - Abhängigkeiten installieren
-  - `npm ci && npm run start`
+  - `npm ci`
+- `index.js` ausführen
+  - `npm run start` oder `node index.js`
 - Auf der Konsole sollte anschliessend erscheinen: `Hello Web Programming Lab 🤙`
 
 ## Struktur
