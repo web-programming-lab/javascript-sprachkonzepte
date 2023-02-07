@@ -15,7 +15,6 @@ Die Ausführungsumgebung ist [Node.js](https://nodejs.org/).
     - `nvm install` installiert die angegebene Node.js Version vom `.nvmrc`
 - `node --version` sollte die installierte Version anzeigen (18)
 - Git Repository clonen
-  - `git clone github.com/web-programming-lab/javascript-sprachkonzepte.git`
 - Abhängigkeiten installieren
   - `npm ci`
 - `index.js` ausführen
