@@ -12,9 +12,9 @@
   "author": "Web Programming Lab 🚀",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0",
-    "node-fetch": "^3.3.0",
-    "prettier": "^2.8.2"
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "node-fetch": "^3.3.2",
+    "prettier": "^3.2.5"
   }
 }
