@@ -1,6 +1,6 @@
 const user = {};
 
-console.log(user.mysuperduperproperty === undefined);
+console.log(user.mysuperduperproperty === undefined); // true
 
 const myUser = {
   name: 'Patrick',
@@ -8,5 +8,5 @@ const myUser = {
 };
 
 // Properties prüfen
-console.log('name' in myUser);
-console.log('key' in myUser);
+console.log('name' in myUser); // true
+console.log('key' in myUser); // false
