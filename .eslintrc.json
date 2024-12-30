@@ -11,6 +11,8 @@
   },
   "rules": {},
   "ignorePatterns": [
+    "snippets/snippet-promise-chaining-startingexample.js",
+    "snippets/snippet-promise.js",
     "snippets/snippet-const.js",
     "node_modules/",
     "dist/",
