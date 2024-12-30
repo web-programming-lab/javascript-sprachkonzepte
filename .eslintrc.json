@@ -14,6 +14,7 @@
     "snippets/snippet-promise-chaining-startingexample.js",
     "snippets/snippet-promise.js",
     "snippets/snippet-const.js",
+    "snippets/snippet-bigint.js",
     "node_modules/",
     "dist/",
     "coverage/"
