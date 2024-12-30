@@ -4,12 +4,18 @@
 
 function letTest() {
   let x = 31;
+  let y = 42;
+
   if (true) {
     let x = 71; // andere Variable
-    let y = 80;
+    let z = 80;
     console.log(x); // 71
+    console.log(y); // 42
+    console.log(z); // 80
   }
+
   console.log(x); // 31
-  console.log(y); // Error
+  console.log(y); // 42
+  console.log(z); // Error
 }
 letTest();
