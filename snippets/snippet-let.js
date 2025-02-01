@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-constant-condition */
 /* eslint-disable no-unused-vars */
+/* eslint-disable no-shadow */
 
 function letTest() {
   let x = 31;

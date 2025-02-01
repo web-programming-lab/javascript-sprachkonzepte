@@ -29,6 +29,7 @@ function deepClone(obj) {
     return obj;
   }
 
+  // eslint-disable-next-line no-shadow
   let clone = Array.isArray(obj) ? [] : {};
   for (let key in obj) {
     // eslint-disable-next-line no-prototype-builtins
@@ -64,7 +65,7 @@ assert.equal(myExampleDeepClone.address === myExampleObject.address, false);
 assert.equal(myExampleStructuredClone === myExampleObject, false);
 assert.equal(
   myExampleStructuredClone.address === myExampleObject.address,
-  false
+  false,
 );
 
 assert.equal(myExampleJsonParse === myExampleObject, false);

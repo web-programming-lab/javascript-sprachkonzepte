@@ -9,7 +9,9 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "rules": {},
+  "rules": {
+    "no-shadow": "error"
+  },
   "ignorePatterns": [
     "snippets/snippet-promise-chaining-startingexample.js",
     "snippets/snippet-promise.js",

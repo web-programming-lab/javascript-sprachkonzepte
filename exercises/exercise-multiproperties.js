@@ -40,7 +40,7 @@ assert.deepEqual(menu, {
  * @param {*} menu
  * @returns
  */
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars, no-shadow
 function multiProperties(menu) {
   // TBD implement multiProperties here
   console.log('Implement multiProperties here 💻');
